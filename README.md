@@ -57,9 +57,9 @@ If you're looking for a great way to make your development projects more robust,
   3. Define Templates:
       * By creating the _definitions array_, define the templates you want to use.
         * Each template should have the following:
-    	    * **title** - short description of the template
-    	    * **description** - longer description
-    	    * **data** - a string that contains the HTML structure of a template
+     	    * **title** - short description of the template
+     	    * **description** - longer description
+     	    * **data** - a string that contains the HTML structure of a template
 * Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
 
 ## Challenge 5
@@ -73,8 +73,8 @@ If you're looking for a great way to make your development projects more robust,
   3. Define Merge Fields:
       * By creating the _definitions array_ inside the _mergeFields configuration_, define the merge fields you want to use.
         * Each one should have:
-  	      * **id**
-  	      * **label**
+   	      * **id**
+   	      * **label**
           * **defaultValue**
   4. Use Merge Fields in templates: By using the id in the template, incorporate Merge Fields in your templates.
 * Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
