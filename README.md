@@ -1,62 +1,80 @@
 # CKEditor-Challenges-GHW-Beginners-Week-2025
 
-Hello hackers! TinyMCE is the developers’ WYSIWYG editor-of-choice for building SaaS web applications faster. <br><br>
-If you're looking for a great way to make your development projects more robust, TinyMCE is a way to get started. 
+Hi Hackers! CKEditor is a great open source tool that allows users to create and edit web content within a browser, and so much more! <br><br>
+If you're looking for a great way to make your development projects more robust, CKEditor is a great way to get started. 
 
 ## Getting Help 
 
-* If you have any questions about TinyMCE or their Global Hack Week challenges, head to the [MLH Discord](https://discord.mlh.io/) and find the #ask-TinyMCE channel!
+* If you have any questions about CKEditor or their Global Hack Week challenges, head to the [MLH Discord](https://discord.mlh.io/) and find the #ask-CKEditor channel!
 * Each challenge is accompanied by helpful documentation
 
 # Challenges
 
 ## Challenge 1
-### Basic TinyMCE Setup in 5 minutes
+### Signup for a CKEditor account
 
 #### Objectives: 
-* Install and set up TinyMCE from scratch in a framework of your choice (React, Vue, Angular, or Vanilla JS).
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
-
-#### Documentation: 
-* [TinyMCE Quick Start Guide](https://mlh.link/ghwos24-tinymce-quickstart)
+* Head over to the CKEditor [sign up page](https://mlh.link/ghwbeginner25-ckeditor-signup) to create an account and obtain the trial license key.
+* In the CKEditor Customer Portal, navigate to the License keys tab to obtain your trial key.
+* Submit a screenshot of your new account on our day-of [GHW form](https://mlh.link/ghwform)! 
 
 ## Challenge 2 
-### Enhance Your RTE with Open Source Plugins
+### Use Builder to create a starter project
 
 #### Objectives: 
-* Choose and integrate two to three open-source plugins (e.g., Autolink, Full Screen, Table) to enhance your editor.
+* Go to the Builder: Open the [CKEditor Builder](https://mlh.link/ghwbeginner25-ckeditor-builder) to start customizing your editor.
+  * Select a Preset: Choose the Classic Editor preset as the foundation for your project.
+* Pick Features:
+  * The preset includes pre-selected features.
+  * Enable additional features manually from the list to meet your needs. Avoid including the following features because these are relevant for the following challenges: Code Block, Templates, and Merge Fields. 
+* Customize the Toolbar: Customize the toolbar for an optimal experience.
+* Download the project:
+    * Follow the setup steps provided by CKEditor Builder to generate the starter project. Specify Vanilla JS as technology and self-hosted as an integration method
 * Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
 
-#### Documentation: 
-* [TinyMCE Open Source Plugins](https://mlh.link/ghwos24-tinymce-osplugins)
-* [TinyMCE Autolink Plugin](https://mlh.link/ghwos24-tinymce-autolinkplugin)
-* [TinyMCE Full Screen Plugin](https://mlh.link/ghwos24-tinymce-fullscreenplugin)
-* [TinyMCE Table Plugin](https://mlh.link/ghwos24-tinymce-tableplugin)
 
 ## Challenge 3 
-### Level Up TinyMCE with Accessibility or Spellchecker
+### Add and configure the code block plugin
 #### Objectives: 
-* Choose between improving your editor’s Accessibility features or adding the Spellchecker plugin for error-free content.
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
+* Enhance your editor to support code blocks
 
-#### Documentation:
-* [TinyMCE Accessibility Checker Plugin](https://mlh.link/ghwos24-tinymce-accessibility)
-* [TinyMCE Spellchecker Plugin](https://mlh.link/ghwos24-tinymce-spellchecker)
+* **Steps to Complete:**
+  1. Install the Plugin: Add the Code Block plugin to your CKEditor configuration.
+      * Use the CodeBlock plugin import from the ckeditor5 package.
+      * Add it to your plugins array in the configuration and items array of the toolbar.
+  2. Customize the Plugin:
+      * Define the programming languages you want to support. Each language should have a language and label properties.
+* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
 
 ## Challenge 4 
-### Add Revision History to Your Editor
+### Add and configure templates
 #### Objectives: 
-* Add the Revision History plugin to enable version control for your content, allowing users to track changes and revert to previous versions.
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
+* Implement templates for creating reusable document structures. 
 
-#### Documentation:
-* [TinyMCE Revision History Plugin](https://mlh.link/ghwos24-tinymce-revisionhistory)
+* **Steps to Complete:**
+  1. Enable the Template Plugin: Add the template plugin by importing it from the ckeditor5-premium-features package.
+  2. Include Templates to the Editor Setup: Add it to your plugins array in the configuration and items array of the toolbar.
+  3. Define Templates:
+      * By creating the _definitions array_, define the templates you want to use.
+        * Each template should have the following:
+    	    * **title** - short description of the template
+    	    * **description** - longer description
+    	    * **data** - a string that contains the HTML structure of a template
+* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
 
 ## Challenge 5
-### Integrate AI Assistant with TinyMCE in 3 Steps
+### Add and configure merge fields
 #### Objectives: 
-* Choose from AI providers like OpenAI, Azure AI, AWS Bedrock, or Gemini and integrate AI Assistant capabilities into TinyMCE for smarter content creation.
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
+* Use merge fields to insert reusable content dynamically
 
-#### Documentation: 
-* [TinyMCE AI Assistant Documentation](https://mlh.link/ghwos24-tinymce-aiassistant)
+* Steps to Complete:
+  1. Enable Merge Fields: Add the MergeFields plugin by importing it from the ckeditor5-premium-features package.
+  2. Include Merge Fields to the Editor Setup: Add it to your plugins array in the configuration and items array of the toolbar.
+  3. Define Merge Fields:
+      * By creating the _definitions array_ inside the _mergeFields configuration_, define the merge fields you want to use.
+        * Each one should have:
+  	      * **id**
+  	      * **label**
+          * **defaultValue**
+  4. Use Merge Fields in templates: By using the id in the template, incorporate Merge Fields in your templates.
+* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
