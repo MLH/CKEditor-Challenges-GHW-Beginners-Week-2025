@@ -1,0 +1,1 @@
+# CKEditor-Challenges-GHW-Beginners-Week-2025
