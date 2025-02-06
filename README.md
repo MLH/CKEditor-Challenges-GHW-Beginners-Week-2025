@@ -1,80 +1,46 @@
-# CKEditor-Challenges-GHW-Beginners-Week-2025
+# TinyMCE-Challenges-GHW-AI/ML-Week-2025
 
-Hi Hackers! CKEditor is a great open source tool that allows users to create and edit web content within a browser, and so much more! <br><br>
-If you're looking for a great way to make your development projects more robust, CKEditor is a great way to get started. 
+Hi Hackers! TinyMCE is a great open source tool that allows users to create and edit web content within a browser, and so much more! <br><br>
+If you're looking for a great way to make your development projects more robust, TinyMCE is a great way to get started. 
 
 ## Getting Help 
 
-* If you have any questions about CKEditor or their Global Hack Week challenges, head to the [MLH Discord](https://discord.mlh.io/) and find the #ask-CKEditor channel!
+* If you have any questions about TinyMCE or their Global Hack Week challenges, head to the [MLH Discord](https://discord.mlh.io/) and find the #ask-TinyMCE channel!
 * Each challenge is accompanied by helpful documentation
 
 # Challenges
 
 ## Challenge 1
-### Signup for a CKEditor account
+### Signup for a TinyMCE account
 
 #### Objectives: 
-* Head over to the CKEditor [sign up page](https://mlh.link/ghwbeginner25-ckeditor-signup) to create an account and obtain the trial license key.
-* In the CKEditor Customer Portal, navigate to the License keys tab to obtain your trial key.
+* Head over to the TinyMCE [sign up page](https://mlh.link/ghwaiml225-TinyMCE-signup) to create a free account, no credit card required!
 * Submit a screenshot of your new account on our day-of [GHW form](https://mlh.link/ghwform)! 
 
 ## Challenge 2 
-### Use Builder to create a starter project
+### Getting Started: Setting Up TinyMCE
 
 #### Objectives: 
-* Go to the Builder: Open the [CKEditor Builder](https://mlh.link/ghwbeginner25-ckeditor-builder) to start customizing your editor.
-  * Select a Preset: Choose the Classic Editor preset as the foundation for your project.
-* Pick Features:
-  * The preset includes pre-selected features.
-  * Enable additional features manually from the list to meet your needs. Avoid including the following features because these are relevant for the following challenges: Code Block, Templates, and Merge Fields. 
-* Customize the Toolbar: Customize the toolbar for an optimal experience.
-* Download the project:
-    * Follow the setup steps provided by CKEditor Builder to generate the starter project. Specify Vanilla JS as technology and self-hosted as an integration method
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
-
+* Start by integrating TinyMCE into your web application, setting up the foundation for your email editor with help from [Windsurf AI](https://mlh.link/ghwaiml225-tinymce-windsurfai).
+* Share your implementation with us on our [submission form](https://mlh.link/ghwform)! 
 
 ## Challenge 3 
-### Add and configure the code block plugin
-#### Objectives: 
-* Enhance your editor to support code blocks
+### Your Pair Programmer: Sign Up for an AI Code Editor
 
-* **Steps to Complete:**
-  1. Install the Plugin: Add the Code Block plugin to your CKEditor configuration.
-      * Use the CodeBlock plugin import from the ckeditor5 package.
-      * Add it to your plugins array in the configuration and items array of the toolbar.
-  2. Customize the Plugin:
-      * Define the programming languages you want to support. Each language should have a language and label properties.
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
+#### Objectives: 
+* Choose between [Windsurf AI](https://mlh.link/ghwaiml225-tinymce-windsurfai) or [Cursor AI](https://mlh.link/ghwaiml225-tinymce-cursorai) and see how an AI-powered coding assistant can speed up your workflow. 
+* Share your implementation with us on our [submission form](https://mlh.link/ghwform)! 
 
 ## Challenge 4 
-### Add and configure templates
+### Templates + Merge Tags
 #### Objectives: 
-* Implement templates for creating reusable document structures. 
-
-* **Steps to Complete:**
-  1. Enable the Template Plugin: Add the template plugin by importing it from the ckeditor5-premium-features package.
-  2. Include Templates to the Editor Setup: Add it to your plugins array in the configuration and items array of the toolbar.
-  3. Define Templates:
-      * By creating the _definitions array_, define the templates you want to use.
-        * Each template should have the following:
-     	    * **title** - short description of the template
-     	    * **description** - longer description
-     	    * **data** - a string that contains the HTML structure of a template
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
+* Combine the power of predefined email templates with dynamic merge tags like {{FirstName}} or {{OrderNumber}}. 
+* With [Windsurf AI](https://mlh.link/ghwaiml225-tinymce-windsurfai) or [Cursor AI](https://mlh.link/ghwaiml225-tinymce-cursorai), create reusable HTML structures and dynamic placeholders to personalize emails and add them to a TinyMCE Editor!
+* Share your implementation with us on our [Devpost Page](https://mlh.link/ghwdevpost)!  
 
 ## Challenge 5
-### Add and configure merge fields
+### Inline CSS for Email Compatibility
 #### Objectives: 
-* Use merge fields to insert reusable content dynamically
-
-* Steps to Complete:
-  1. Enable Merge Fields: Add the MergeFields plugin by importing it from the ckeditor5-premium-features package.
-  2. Include Merge Fields to the Editor Setup: Add it to your plugins array in the configuration and items array of the toolbar.
-  3. Define Merge Fields:
-      * By creating the _definitions array_ inside the _mergeFields configuration_, define the merge fields you want to use.
-        * Each one should have:
-          * **id**
-          * **label**
-          * **defaultValue**
-  4. Use Merge Fields in templates: By using the id in the template, incorporate Merge Fields in your templates.
-* Share your implementation with us on our submission form and bonus points if you add your project to our [Devpost Page](https://mlh.link/ghwdevpost)! 
+* Ensure your emails are visually consistent across all email clients by adding inline CSS.
+* Use [Windsurf AI](https://mlh.link/ghwaiml225-tinymce-windsurfai) or [Cursor AI](https://mlh.link/ghwaiml225-tinymce-cursorai) to help you craft clean, email-safe CSS rules.
+* Share your implementation with us on our [Devpost Page](https://mlh.link/ghwdevpost)!  
